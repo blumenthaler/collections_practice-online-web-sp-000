@@ -26,7 +26,7 @@ def reverse_array(array_i)
 end
 
 def kesha_maker(array)
-  kesharray = []
+ # kesharray = []
   array.collect do |index|
     index[2] = "$"
     index
