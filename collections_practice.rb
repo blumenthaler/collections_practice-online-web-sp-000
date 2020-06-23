@@ -27,7 +27,9 @@ end
 
 def kesha_maker(array)
   kesharray = []
-  
+  array.collect do |index|
+    index[2] = "$"
+    index
 end
   
   
