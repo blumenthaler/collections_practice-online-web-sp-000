@@ -26,9 +26,12 @@ def reverse_array(array_i)
 end
 
 def kesha_maker(array)
-  kesha_string = []
+  kesharray = []
   array.each do |string|
-    array.sub(string[2], "$")
+  kesharray << array.sub(string[2], "$")
+  end
+  kesharray
+end
   
   
   
